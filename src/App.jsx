@@ -1,6 +1,7 @@
 
 import './App.css'
-import BoxBorder from './components/BoxBorder'
+import Bg from './components/bg'
+// import BoxBorder from './components/BoxBorder'
 // import Container from './components/Container'
 // import Reuse from './components/Reuse'
 
@@ -13,7 +14,8 @@ function App() {
                         {/* rounded bg-slate-500 hover:text-green-500 hover:bg-red-300'>Hover</button> */}
         {/* <Reuse></Reuse> */}
         {/* <Container></Container> */}
-        <BoxBorder></BoxBorder>
+        {/* <BoxBorder></BoxBorder> */}
+        <Bg></Bg>
     </>
   )
 }
